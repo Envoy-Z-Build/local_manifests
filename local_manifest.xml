@@ -1,22 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     
-     <!--Fetch Github-->
+    <!-- Remote -->
     <remote name="github" fetch="https://github.com/" />
-    
-    <!-- Remove HAL's -->
+
+    <!-- Remove default QCOM HALs -->
     <remove-project name="android_hardware_qcom_display" />
     <remove-project name="android_hardware_qcom_media" />
     <remove-project name="android_hardware_qcom_audio" />
 
-    <!--HAL's & Tree's-->
-    <project name="Lavender-LineageOS/hardware_qcom-caf_sdm660_display" path="hardware/qcom-caf/sdm660/display" revision="lineage-21.0" remote="github"/>
-    <project name="Lavender-LineageOS/hardware_qcom-caf_sdm660_media" path="hardware/qcom-caf/sdm660/media" revision="lineage-21.0" remote="github"/>
-    <project name="Lavender-LineageOS/hardware_qcom-caf_sdm660_audio" path="hardware/qcom-caf/sdm660/audio" revision="lineage-21.0" remote="github"/>
-    <project name="Envoy-Z-Build/device_xiaomi_lavender" path="device/xiaomi/lavender" revision="arrow-13.1" remote="github" />
-    <project name="Ratoriku-Studio/device_xiaomi_sdm660-common" path="device/xiaomi/sdm660-common" revision="arrow-13.1" remote="github" />
+    <!-- QCOM HALs -->
+    <project name="Lavender-LineageOS/hardware_qcom-caf_sdm660_display" path="hardware/qcom-caf/sdm660/display" revision="lineage-21.0" remote="github" />
+    <project name="Lavender-LineageOS/hardware_qcom-caf_sdm660_media" path="hardware/qcom-caf/sdm660/media" revision="lineage-21.0" remote="github" />
+    <project name="Lavender-LineageOS/hardware_qcom-caf_sdm660_audio" path="hardware/qcom-caf/sdm660/audio" revision="lineage-21.0" remote="github" />
+
+    <!-- Device-specific -->
+    <project name="RedmiNote7-Lab/device_xiaomi_lavender" path="device/xiaomi/lavender" revision="13-arrow" remote="github" />
+    <project name="RedmiNote7-Lab/vendor_xiaomi_lavender" path="vendor/xiaomi/lavender" revision="13" remote="github" />
     <project name="pix106/android_kernel_xiaomi_southwest-4.19" path="kernel/xiaomi/lavender" revision="main-dynamic" remote="github" />
-    <project name="Ratoriku-Studio/vendor_xiaomi_lavender" path="vendor/xiaomi/lavender" revision="arrow-13.1" remote="github" />
-    <project name="Ratoriku-Studio/vendor_xiaomi_sdm660-common" path="vendor/xiaomi/sdm660-common" revision="arrow-13.1" remote="github" />
+
+    <!-- Misc -->
     <project name="ArrowOS-Devices/android_hardware_xiaomi" path="hardware/xiaomi" revision="arrow-13.1" remote="github" />
 </manifest>
