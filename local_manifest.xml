@@ -2,7 +2,7 @@
 <manifest>
 
     <!-- Remote -->
-    <remote name="github" fetch="https://github.com/" />
+    <remote name="hub" fetch="https://github.com/" />
 
     <!-- Remove default QCOM HALs -->
     <remove-project name="android_hardware_qcom_display" />
