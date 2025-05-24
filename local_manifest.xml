@@ -10,16 +10,16 @@
     <remove-project name="android_hardware_qcom_audio" />
 
     <!-- QCOM HALs -->
-    <project name="Lavender-LineageOS/hardware_qcom-caf_sdm660_display" path="hardware/qcom-caf/msm8998/display" revision="lineage-21.0" remote="github" />
-    <project name="Lavender-LineageOS/hardware_qcom-caf_sdm660_media" path="hardware/qcom-caf/msm8998/media" revision="lineage-21.0" remote="github" />
-    <project name="Lavender-LineageOS/hardware_qcom-caf_sdm660_audio" path="hardware/qcom-caf/msm8998/audio" revision="lineage-21.0" remote="github" />
+    <project name="Lavender-LineageOS/hardware_qcom-caf_sdm660_display" path="hardware/qcom-caf/msm8998/display" revision="lineage-21.0" remote="hub" />
+    <project name="Lavender-LineageOS/hardware_qcom-caf_sdm660_media" path="hardware/qcom-caf/msm8998/media" revision="lineage-21.0" remote="hub" />
+    <project name="Lavender-LineageOS/hardware_qcom-caf_sdm660_audio" path="hardware/qcom-caf/msm8998/audio" revision="lineage-21.0" remote="hub" />
 
     <!-- Device-specific -->
-    <project name="RedmiNote7-Lab/device_xiaomi_lavender" path="device/xiaomi/lavender" revision="14" remote="github" />
-    <project name="RedmiNote7-Lab/vendor_xiaomi_lavender" path="vendor/xiaomi/lavender" revision="14" remote="github" />
-    <project name="pix106/android_kernel_xiaomi_southwest-4.19" path="kernel/xiaomi/lavender" revision="main-dynamic" remote="github" />
+    <project name="RedmiNote7-Lab/device_xiaomi_lavender" path="device/xiaomi/lavender" revision="14" remote="hub" />
+    <project name="RedmiNote7-Lab/vendor_xiaomi_lavender" path="vendor/xiaomi/lavender" revision="14" remote="hub" />
+    <project name="pix106/android_kernel_xiaomi_southwest-4.19" path="kernel/xiaomi/lavender" revision="main-dynamic" remote="hub" />
 
     <!-- Misc -->
-    <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" revision="lineage-21" remote="github" />
+    <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" revision="lineage-21" remote="hub" />
 
 </manifest>
